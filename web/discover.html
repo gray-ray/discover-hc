@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="zh-CN" data-bs-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>上市公司招聘洞察</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body data-mode="discover">
+    <div class="app-shell">
+      <nav class="navbar navbar-expand-lg topbar sticky-top">
+        <div class="container-fluid px-4 py-3">
+          <div
+            class="d-flex flex-wrap align-items-center justify-content-between gap-3 w-100"
+          >
+            <div class="d-flex flex-wrap align-items-center gap-4">
+              <div class="d-flex align-items-center gap-3">
+                <span class="brand-mark">招</span>
+                <div>
+                  <div class="fw-semibold">上市公司招聘洞察</div>
+                  <div class="text-secondary small">
+                    行业名单整理、招聘动态扫描、继续扫描与失败补扫
+                  </div>
+                </div>
+              </div>
+              <ul class="nav nav-pills flex-wrap gap-2 mb-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link menu-link"
+                    href="#discover"
+                    data-mode-nav="discover"
+                    >名单整理</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link menu-link"
+                    href="#crawl"
+                    data-mode-nav="crawl"
+                    >招聘扫描</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <button
+                class="btn btn-outline-secondary btn-sm"
+                id="openUsageModal"
+              >
+                使用说明
+              </button>
+              <button
+                class="btn btn-outline-secondary btn-sm"
+                id="openJobLogsModal"
+              >
+                任务日志
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main class="container-fluid px-4 py-4">
+        <div id="pageNotice" class="alert d-none mb-4" role="alert"></div>
+
+        <section class="console-card p-4 mb-4">
+          <div
+            class="d-flex flex-wrap align-items-start justify-content-between gap-3 mb-4"
+          >
+            <div>
+              <h1 class="h3 fw-bold mb-2" id="modeTitle">名单整理</h1>
+              <p class="text-secondary mb-0" id="modeDescription">
+                行业公司清单与官网。
+              </p>
+            </div>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge rounded-pill text-bg-light border"
+                >行业数 <span id="industryCount">-</span></span
+              >
+              <span class="badge rounded-pill text-bg-light border"
+                >名单整理 <span id="discoverCount">-</span></span
+              >
+              <span class="badge rounded-pill text-bg-light border"
+                >招聘扫描 <span id="crawlCount">-</span></span
+              >
+            </div>
+          </div>
+
+          <div class="alert alert-primary border-0 mb-4" id="modeGuide">
+            输入行业名称后启动任务。这个菜单只负责生成全行业公司清单，不抓招聘。
+          </div>
+
+          <div class="top-config-grid mb-4">
+            <div class="span-12" data-mode-panel="discover">
+              <form id="config-discover" class="top-config-grid">
+                <div class="span-5">
+                  <label
+                    for="discover-industry"
+                    class="form-label small text-secondary"
+                    >行业名称</label
+                  >
+                  <select
+                    id="discover-industry"
+                    class="form-select"
+                    data-field="industry"
+                  ></select>
+                </div>
+                <div class="span-3">
+                  <label
+                    for="discover-company-limit"
+                    class="form-label small text-secondary"
+                    >最多公司数</label
+                  >
+                  <input
+                    id="discover-company-limit"
+                    class="form-control"
+                    data-field="company_limit"
+                    type="number"
+                    min="1"
+                    value="20"
+                  />
+                </div>
+              </form>
+            </div>
+
+            <div class="span-12 d-none" data-mode-panel="crawl">
+              <form id="config-crawl" class="top-config-grid">
+                <div class="span-3">
+                  <label
+                    for="crawl-industry"
+                    class="form-label small text-secondary"
+                    >行业名称</label
+                  >
+                  <select
+                    id="crawl-industry"
+                    class="form-select"
+                    data-field="industry"
+                  ></select>
+                </div>
+                <div class="span-2">
+                  <label
+                    for="crawl-run-mode"
+                    class="form-label small text-secondary"
+                    >处理方式</label
+                  >
+                  <select
+                    id="crawl-run-mode"
+                    class="form-select"
+                    data-field="mode_override"
+                  >
+                    <option value="crawl">招聘扫描</option>
+                    <option value="resume">继续扫描</option>
+                    <option value="refresh-failed">失败补扫</option>
+                  </select>
+                </div>
+                <div class="span-2">
+                  <label
+                    for="crawl-company-limit"
+                    class="form-label small text-secondary"
+                    >最多公司数</label
+                  >
+                  <input
+                    id="crawl-company-limit"
+                    class="form-control"
+                    data-field="company_limit"
+                    type="number"
+                    min="1"
+                    value="20"
+                  />
+                </div>
+                <div class="span-1">
+                  <label
+                    for="crawl-timeout"
+                    class="form-label small text-secondary"
+                    >请求超时(秒)</label
+                  >
+                  <input
+                    id="crawl-timeout"
+                    class="form-control"
+                    data-field="timeout"
+                    type="number"
+                    min="1"
+                    value="120"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="d-flex flex-wrap gap-2 action-bar">
+            <button class="btn btn-primary action-btn action-btn-primary" id="startJob">
+              开始执行
+            </button>
+            <button class="btn btn-outline-secondary action-btn" id="refreshEverything">
+              刷新状态
+            </button>
+          </div>
+          <div class="execution-state d-none" id="executionState"></div>
+        </section>
+
+        <div class="row g-4">
+          <div class="col-12">
+            <section class="console-card p-4 h-100">
+              <div
+                class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-3"
+              >
+                <div>
+                  <h2 class="h5 mb-0">结果查看</h2>
+                </div>
+                <div class="d-flex flex-wrap gap-2 tool-bar">
+                  <button
+                    class="btn btn-outline-success tool-btn"
+                    id="exportArtifactExcel"
+                    disabled
+                  >
+                    导出表格
+                  </button>
+                  <label class="tool-check" for="toggleAllArtifacts">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="toggleAllArtifacts"
+                    />
+                    <span>全选当前列表</span>
+                  </label>
+                  <button
+                    class="btn btn-outline-danger tool-btn"
+                    id="deleteSelectedArtifacts"
+                    disabled
+                  >
+                    删除所选结果
+                  </button>
+                  <button
+                    class="btn btn-outline-secondary tool-btn"
+                    id="reloadArtifacts"
+                  >
+                    刷新
+                  </button>
+                </div>
+              </div>
+              <div class="small text-secondary mb-3" id="artifactSelectionInfo">
+                已选 0 个文件
+              </div>
+              <div class="row g-3">
+                <div class="col-12 col-xl-4">
+                  <div class="list-pane d-grid gap-3" id="artifactList"></div>
+                </div>
+                <div class="col-12 col-xl-8">
+                  <div
+                    class="border rounded-4 p-3 mb-3 bg-body-tertiary"
+                    id="artifactSummary"
+                  >
+                    请选择一个文件查看结果。
+                  </div>
+                  <div class="artifact-table-wrap">
+                    <div class="table-responsive">
+                      <table class="table table-hover align-middle mb-0">
+                        <thead class="table-light">
+                          <tr>
+                            <th>公司</th>
+                            <th>官网</th>
+                            <th>状态</th>
+                            <th>招聘信息</th>
+                          </tr>
+                        </thead>
+                        <tbody id="resultsTable">
+                          <tr>
+                            <td colspan="4" class="text-secondary">暂无结果</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div class="modal fade" id="usageModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5">使用说明</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <div class="fw-semibold mb-2">两个菜单怎么用</div>
+              <ul class="mb-0 text-secondary">
+                <li><strong>名单整理</strong>：先获取行业内公司名单和官网。</li>
+                <li>
+                  <strong>招聘扫描</strong
+                  >：可选择招聘扫描、继续扫描、失败补扫三种方式。
+                </li>
+              </ul>
+            </div>
+            <div class="mb-0">
+              <div class="fw-semibold mb-2">查看说明</div>
+              <ul class="mb-0 text-secondary">
+                <li>继续扫描和失败补扫会基于当前选中的招聘结果继续处理。</li>
+                <li>任务状态与过程日志会持续更新，刷新页面后仍可继续查看。</li>
+                <li>选中结果后可直接导出当前列表为表格。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="jobLogsModal" tabindex="-1" aria-hidden="true">
+      <div
+        class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5">任务日志</h1>
+            <button
+              type="button"
+              class="btn btn-outline-danger btn-sm me-2"
+              id="openClearJobLogsModal"
+            >
+              清空记录
+            </button>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div
+              class="border rounded-4 p-3 mb-3 bg-body-tertiary"
+              id="jobSummary"
+            >
+              请选择一条任务查看详情。
+            </div>
+            <div class="console-box p-3" id="jobLogs">暂无日志</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="clearJobLogsModal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-danger-subtle">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-danger">确认清空执行记录</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="mb-2">将清空当前保存的任务记录和日志。</p>
+            <p class="mb-0 small text-secondary">
+              结果数据不会删除；正在运行的任务会保留。
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-outline-secondary"
+              data-bs-dismiss="modal"
+            >
+              取消
+            </button>
+            <button
+              type="button"
+              class="btn btn-danger"
+              id="confirmClearJobLogs"
+            >
+              确认清空
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="deleteArtifactsModal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-danger-subtle">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-danger">确认删除所选结果</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="mb-2">将删除当前选中的结果。</p>
+            <p class="mb-0 small text-secondary" id="deleteArtifactsSummary">
+              已选 0 个文件。
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-outline-secondary"
+              data-bs-dismiss="modal"
+            >
+              取消
+            </button>
+            <button
+              type="button"
+              class="btn btn-danger"
+              id="confirmDeleteArtifacts"
+            >
+              确认删除
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/app.js"></script>
+  </body>
+</html>

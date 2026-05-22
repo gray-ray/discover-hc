@@ -1,0 +1,33 @@
+{
+  "job_id": "479efb492b25",
+  "config": {
+    "mode": "discover",
+    "industry": "电网设备",
+    "company_limit": 1,
+    "page_limit": 15,
+    "result_limit": 5,
+    "timeout": 15.0,
+    "source_path": "",
+    "output_path": "",
+    "show_ssl_warning": false
+  },
+  "status": "completed",
+  "created_at": "2026-05-21T15:29:22",
+  "started_at": "2026-05-21T15:29:22",
+  "finished_at": "2026-05-21T15:29:23",
+  "artifact_path": "/Users/ecarx/Documents/pluto/hc/console_data/discover/电网设备-discover-20260521-152923.json",
+  "source_path": "",
+  "error": null,
+  "summary": {
+    "industry": "电网设备",
+    "company_count": 1
+  },
+  "logs": [
+    "2026-05-21T15:29:22 开始 discover 模式，行业: 电网设备",
+    "2026-05-21T15:29:23 已匹配行业: 电网设备 (BK0457)",
+    "2026-05-21T15:29:23 获取到 1 家公司，开始补全官网信息",
+    "2026-05-21T15:29:23 [1/1] 正在补全公司信息: 300069 金利华电",
+    "2026-05-21T15:29:23 [1/1] 官网: https://www.jlhdq.com/",
+    "2026-05-21T15:29:23 discover 完成，结果已保存: /Users/ecarx/Documents/pluto/hc/console_data/discover/电网设备-discover-20260521-152923.json"
+  ]
+}

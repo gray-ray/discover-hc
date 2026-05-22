@@ -1,0 +1,52 @@
+{
+  "job_id": "8194469d6c16",
+  "config": {
+    "mode": "discover",
+    "industry": "白色家电",
+    "company_limit": 10,
+    "page_limit": 15,
+    "result_limit": 5,
+    "timeout": 15.0,
+    "source_path": "",
+    "output_path": "",
+    "show_ssl_warning": false
+  },
+  "status": "completed",
+  "created_at": "2026-05-21T17:32:17",
+  "started_at": "2026-05-21T17:32:17",
+  "finished_at": "2026-05-21T17:32:32",
+  "artifact_path": "/Users/ecarx/Documents/pluto/hc/console_data/discover/白色家电-discover-20260521-173232.json",
+  "source_path": "",
+  "error": null,
+  "summary": {
+    "industry": "白色家电",
+    "company_count": 10
+  },
+  "logs": [
+    "2026-05-21T17:32:17 开始 discover 模式，行业: 白色家电",
+    "2026-05-21T17:32:19 主列表接口不可用，已自动切换到 Eastmoney 兼容通道: /webguest/api/qt/clist/get",
+    "2026-05-21T17:32:28 已匹配行业: 白色家电 (BK1239)",
+    "2026-05-21T17:32:30 获取到 10 家公司，开始补全官网信息",
+    "2026-05-21T17:32:30 [1/10] 正在补全公司信息: 000016 *ST康佳A",
+    "2026-05-21T17:32:30 [1/10] 官网: https://www.konka.com/",
+    "2026-05-21T17:32:30 [2/10] 正在补全公司信息: 000333 美的集团",
+    "2026-05-21T17:32:31 [2/10] 官网: https://www.midea.com/",
+    "2026-05-21T17:32:31 [3/10] 正在补全公司信息: 200521 虹美菱B",
+    "2026-05-21T17:32:31 [3/10] 官网: https://www.meiling.com/",
+    "2026-05-21T17:32:31 [4/10] 正在补全公司信息: 000521 长虹美菱",
+    "2026-05-21T17:32:31 [4/10] 官网: https://www.meiling.com/",
+    "2026-05-21T17:32:31 [5/10] 正在补全公司信息: 600983 惠而浦",
+    "2026-05-21T17:32:32 [5/10] 官网: https://www.whirlpool.com.cn/",
+    "2026-05-21T17:32:32 [6/10] 正在补全公司信息: 002668 TCL智家",
+    "2026-05-21T17:32:32 [6/10] 官网: https://www.tclsmarthome.com/",
+    "2026-05-21T17:32:32 [7/10] 正在补全公司信息: 000921 海信家电",
+    "2026-05-21T17:32:32 [7/10] 官网: https://hxjd.hisense.cn/",
+    "2026-05-21T17:32:32 [8/10] 正在补全公司信息: 000651 格力电器",
+    "2026-05-21T17:32:32 [8/10] 补全失败，保留基础信息: 请求失败: https://emweb.securities.eastmoney.com/PC_HSF10/CompanySurvey/PageAjax?code=SZ000651 (返回内容不是合法 JSON: \b\u0000\u0000\u0000\u0000\u0000\u0004\u0000Y{O\u001b\u0015*)%l\u0012^:0$V\u0001#$*+UۭTUW+ـ\u0018\u00040\u000fۀ\teC0،m.ٹwfEg،v\u001bE0sϹ<s{^\u001e4:3\u001ez^~G\u001eqvЬ)4|\u0003*mXF]dE=Z\u001c?8d&]~YJɳQ}3ł',Y옕G\u001eI\u0013Ҩ\u001a}䜞p9F)",
+    "2026-05-21T17:32:32 [9/10] 正在补全公司信息: 600690 海尔智家",
+    "2026-05-21T17:32:32 [9/10] 官网: https://smart-home.haier.com/cn/",
+    "2026-05-21T17:32:32 [10/10] 正在补全公司信息: 600336 澳柯玛",
+    "2026-05-21T17:32:32 [10/10] 官网: https://www.aucma.com.cn/",
+    "2026-05-21T17:32:32 discover 完成，结果已保存: /Users/ecarx/Documents/pluto/hc/console_data/discover/白色家电-discover-20260521-173232.json"
+  ]
+}

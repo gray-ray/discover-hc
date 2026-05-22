@@ -1,0 +1,91 @@
+{
+  "kind": "discover",
+  "created_at": "2026-05-22T11:00:46",
+  "industry": {
+    "name": "汽车服务",
+    "code": "BK1016"
+  },
+  "company_count": 10,
+  "companies": [
+    {
+      "stock_code": "300825",
+      "stock_name": "阿尔特",
+      "company_name": "阿尔特汽车技术股份有限公司",
+      "industry": "汽车服务",
+      "website": "https://www.iat-auto.com/",
+      "eastmoney_code": "SZ300825"
+    },
+    {
+      "stock_code": "600653",
+      "stock_name": "申华控股",
+      "company_name": "辽宁申华控股股份有限公司",
+      "industry": "汽车服务",
+      "website": "https://www.shkg.com.cn/",
+      "eastmoney_code": "SH600653"
+    },
+    {
+      "stock_code": "600822",
+      "stock_name": "上海物贸",
+      "company_name": "上海物资贸易股份有限公司",
+      "industry": "汽车服务",
+      "website": "https://www.600822sh.com/",
+      "eastmoney_code": "SH600822"
+    },
+    {
+      "stock_code": "301215",
+      "stock_name": "中汽股份",
+      "company_name": "中汽研汽车试验场股份有限公司",
+      "industry": "汽车服务",
+      "website": "https://www.capg.com.cn/",
+      "eastmoney_code": "SZ301215"
+    },
+    {
+      "stock_code": "900927",
+      "stock_name": "物贸Ｂ股",
+      "company_name": "上海物资贸易股份有限公司",
+      "industry": "汽车服务",
+      "website": "https://www.600822sh.com/",
+      "eastmoney_code": "SH900927"
+    },
+    {
+      "stock_code": "000757",
+      "stock_name": "浩物股份",
+      "company_name": "四川浩物机电股份有限公司",
+      "industry": "汽车服务",
+      "website": "https://hwgf757.com/",
+      "eastmoney_code": "SZ000757"
+    },
+    {
+      "stock_code": "600335",
+      "stock_name": "国机汽车",
+      "company_name": "国机汽车股份有限公司",
+      "industry": "汽车服务",
+      "website": "https://www.sinomach-auto.com/",
+      "eastmoney_code": "SH600335"
+    },
+    {
+      "stock_code": "920030",
+      "stock_name": "德众汽车",
+      "company_name": "湖南德众汽车销售服务股份有限公司",
+      "industry": "汽车服务",
+      "website": "https://www.hndzgf.com/",
+      "eastmoney_code": "BJ920030"
+    },
+    {
+      "stock_code": "600386",
+      "stock_name": "北巴传媒",
+      "company_name": "北京巴士传媒股份有限公司",
+      "industry": "汽车服务",
+      "website": "https://www.bbcm.com.cn/",
+      "eastmoney_code": "SH600386"
+    },
+    {
+      "stock_code": "600676",
+      "stock_name": "交运股份",
+      "company_name": "上海交运集团股份有限公司",
+      "industry": "汽车服务",
+      "website": "https://www.cnsjy.com/",
+      "eastmoney_code": "SH600676"
+    }
+  ]
+}

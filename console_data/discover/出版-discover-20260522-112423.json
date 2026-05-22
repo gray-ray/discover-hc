@@ -1,0 +1,171 @@
+{
+  "kind": "discover",
+  "created_at": "2026-05-22T11:24:23",
+  "industry": {
+    "name": "出版",
+    "code": "BK1218"
+  },
+  "company_count": 20,
+  "companies": [
+    {
+      "stock_code": "601858",
+      "stock_name": "中国科传",
+      "company_name": "中国科技出版传媒股份有限公司",
+      "industry": "出版",
+      "website": "https://www.sciencep.com/",
+      "eastmoney_code": "SH601858"
+    },
+    {
+      "stock_code": "000793",
+      "stock_name": "*ST华闻",
+      "company_name": "华闻传媒投资集团股份有限公司",
+      "industry": "出版",
+      "website": "https://www.000793.com/",
+      "eastmoney_code": "SZ000793"
+    },
+    {
+      "stock_code": "300148",
+      "stock_name": "天舟文化",
+      "company_name": "天舟文化股份有限公司",
+      "industry": "出版",
+      "website": "https://www.t-angel.com/",
+      "eastmoney_code": "SZ300148"
+    },
+    {
+      "stock_code": "300654",
+      "stock_name": "世纪天鸿",
+      "company_name": "世纪天鸿教育科技股份有限公司",
+      "industry": "出版",
+      "website": "https://www.sjthedu.com/",
+      "eastmoney_code": "SZ300654"
+    },
+    {
+      "stock_code": "300788",
+      "stock_name": "中信出版",
+      "company_name": "中信出版集团股份有限公司",
+      "industry": "出版",
+      "website": "https://www.citicpub.com/",
+      "eastmoney_code": "SZ300788"
+    },
+    {
+      "stock_code": "301231",
+      "stock_name": "荣信文化",
+      "company_name": "荣信教育文化产业发展股份有限公司",
+      "industry": "出版",
+      "website": "https://www.lelequ.com/",
+      "eastmoney_code": "SZ301231"
+    },
+    {
+      "stock_code": "601098",
+      "stock_name": "中南传媒",
+      "company_name": "中南出版传媒集团股份有限公司",
+      "industry": "出版",
+      "website": "https://www.zncmjt.com/",
+      "eastmoney_code": "SH601098"
+    },
+    {
+      "stock_code": "603230",
+      "stock_name": "内蒙新华",
+      "company_name": "内蒙古新华发行集团股份有限公司",
+      "industry": "出版",
+      "website": "https://www.nmgxhfxjt.com/",
+      "eastmoney_code": "SH603230"
+    },
+    {
+      "stock_code": "601928",
+      "stock_name": "凤凰传媒",
+      "company_name": "江苏凤凰出版传媒股份有限公司",
+      "industry": "出版",
+      "website": "https://www.ppm.cn/",
+      "eastmoney_code": "SH601928"
+    },
+    {
+      "stock_code": "601999",
+      "stock_name": "出版传媒",
+      "company_name": "北方联合出版传媒(集团)股份有限公司",
+      "industry": "出版",
+      "website": "https://www.nupmg.com/",
+      "eastmoney_code": "SH601999"
+    },
+    {
+      "stock_code": "600229",
+      "stock_name": "城市传媒",
+      "company_name": "青岛城市传媒股份有限公司",
+      "industry": "出版",
+      "website": "https://www.citymedia.cn/",
+      "eastmoney_code": "SH600229"
+    },
+    {
+      "stock_code": "301025",
+      "stock_name": "读客文化",
+      "company_name": "读客文化股份有限公司",
+      "industry": "出版",
+      "website": "https://www.dookbook.com/",
+      "eastmoney_code": "SZ301025"
+    },
+    {
+      "stock_code": "301052",
+      "stock_name": "果麦文化",
+      "company_name": "果麦文化传媒股份有限公司",
+      "industry": "出版",
+      "website": "https://www.goldmye.com/",
+      "eastmoney_code": "SZ301052"
+    },
+    {
+      "stock_code": "601921",
+      "stock_name": "浙版传媒",
+      "company_name": "浙江出版传媒股份有限公司",
+      "industry": "出版",
+      "website": "https://www.zjcbcm.com/",
+      "eastmoney_code": "SH601921"
+    },
+    {
+      "stock_code": "601019",
+      "stock_name": "山东出版",
+      "company_name": "山东出版传媒股份有限公司",
+      "industry": "出版",
+      "website": "https://www.sdcbcm.com/",
+      "eastmoney_code": "SH601019"
+    },
+    {
+      "stock_code": "603096",
+      "stock_name": "新经典",
+      "company_name": "新经典文化股份有限公司",
+      "industry": "出版",
+      "website": "https://www.readinglife.com/",
+      "eastmoney_code": "SH603096"
+    },
+    {
+      "stock_code": "600373",
+      "stock_name": "中文传媒",
+      "company_name": "中文天地出版传媒集团股份有限公司",
+      "industry": "出版",
+      "website": "https://www.600373.com.cn/",
+      "eastmoney_code": "SH600373"
+    },
+    {
+      "stock_code": "605577",
+      "stock_name": "龙版传媒",
+      "company_name": "黑龙江出版传媒股份有限公司",
+      "industry": "出版",
+      "website": "https://www.hljcbgf.com/",
+      "eastmoney_code": "SH605577"
+    },
+    {
+      "stock_code": "601801",
+      "stock_name": "皖新传媒",
+      "company_name": "安徽新华传媒股份有限公司",
+      "industry": "出版",
+      "website": "https://www.wxm.com/",
+      "eastmoney_code": "SH601801"
+    },
+    {
+      "stock_code": "000719",
+      "stock_name": "中原传媒",
+      "company_name": "中原大地传媒股份有限公司",
+      "industry": "出版",
+      "website": "https://www.zyddcm.com/",
+      "eastmoney_code": "SZ000719"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "kind": "discover",
+  "created_at": "2026-05-22T13:32:35",
+  "industry": {
+    "name": "医药商业",
+    "code": "BK1042"
+  },
+  "company_count": 20,
+  "companies": [
+    {
+      "stock_code": "301015",
+      "stock_name": "百洋医药",
+      "company_name": "青岛百洋医药股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.baheal.cn/",
+      "eastmoney_code": "SZ301015"
+    },
+    {
+      "stock_code": "600713",
+      "stock_name": "南京医药",
+      "company_name": "南京医药集团股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.njyy.com/",
+      "eastmoney_code": "SH600713"
+    },
+    {
+      "stock_code": "002462",
+      "stock_name": "嘉事堂",
+      "company_name": "嘉事堂药业股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.cachet.com.cn/",
+      "eastmoney_code": "SZ002462"
+    },
+    {
+      "stock_code": "600829",
+      "stock_name": "人民同泰",
+      "company_name": "哈药集团人民同泰医药股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.hyrmtt.com.cn/",
+      "eastmoney_code": "SH600829"
+    },
+    {
+      "stock_code": "301126",
+      "stock_name": "达嘉维康",
+      "company_name": "湖南达嘉维康医药产业股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.djwk.com.cn/",
+      "eastmoney_code": "SZ301126"
+    },
+    {
+      "stock_code": "000411",
+      "stock_name": "英特集团",
+      "company_name": "浙江英特集团股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.intmedic.com/",
+      "eastmoney_code": "SZ000411"
+    },
+    {
+      "stock_code": "600833",
+      "stock_name": "第一医药",
+      "company_name": "上海第一医药股份有限公司",
+      "industry": "医药商业",
+      "website": "https://shdyyy.com.cn/",
+      "eastmoney_code": "SH600833"
+    },
+    {
+      "stock_code": "002788",
+      "stock_name": "鹭燕医药",
+      "company_name": "鹭燕医药股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.luyan.com.cn/",
+      "eastmoney_code": "SZ002788"
+    },
+    {
+      "stock_code": "300937",
+      "stock_name": "药易购",
+      "company_name": "四川合纵药易购医药股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.hezongyy.com/",
+      "eastmoney_code": "SZ300937"
+    },
+    {
+      "stock_code": "000950",
+      "stock_name": "重药控股",
+      "company_name": "重药控股股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.cqphar.com/",
+      "eastmoney_code": "SZ000950"
+    },
+    {
+      "stock_code": "002589",
+      "stock_name": "瑞康医药",
+      "company_name": "瑞康医药集团股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.realcan.cn/",
+      "eastmoney_code": "SZ002589"
+    },
+    {
+      "stock_code": "002390",
+      "stock_name": "信邦制药",
+      "company_name": "贵州信邦制药股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.xinbang.com/",
+      "eastmoney_code": "SZ002390"
+    },
+    {
+      "stock_code": "000705",
+      "stock_name": "浙江震元",
+      "company_name": "浙江震元股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.zjzy.com/",
+      "eastmoney_code": "SZ000705"
+    },
+    {
+      "stock_code": "301584",
+      "stock_name": "建发致新",
+      "company_name": "上海建发致新医疗科技集团股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.innostic.com/",
+      "eastmoney_code": "SZ301584"
+    },
+    {
+      "stock_code": "603233",
+      "stock_name": "大参林",
+      "company_name": "大参林医药集团股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.dslyy.com/",
+      "eastmoney_code": "SH603233"
+    },
+    {
+      "stock_code": "600272",
+      "stock_name": "开开实业",
+      "company_name": "上海开开实业股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.chinesekk.com/",
+      "eastmoney_code": "SH600272"
+    },
+    {
+      "stock_code": "600511",
+      "stock_name": "国药股份",
+      "company_name": "国药集团药业股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.cncm.com.cn/",
+      "eastmoney_code": "SH600511"
+    },
+    {
+      "stock_code": "605266",
+      "stock_name": "健之佳",
+      "company_name": "健之佳医药连锁集团股份有限公司",
+      "industry": "医药商业",
+      "website": null,
+      "eastmoney_code": "SH605266"
+    },
+    {
+      "stock_code": "603368",
+      "stock_name": "柳药集团",
+      "company_name": "广西柳药集团股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.lzyy.cn/",
+      "eastmoney_code": "SH603368"
+    },
+    {
+      "stock_code": "301408",
+      "stock_name": "华人健康",
+      "company_name": "安徽华人健康医药股份有限公司",
+      "industry": "医药商业",
+      "website": "https://www.hrjkjt.com/",
+      "eastmoney_code": "SZ301408"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "kind": "discover",
+  "created_at": "2026-05-22T11:24:19",
+  "industry": {
+    "name": "包装印刷",
+    "code": "BK1265"
+  },
+  "company_count": 20,
+  "companies": [
+    {
+      "stock_code": "603607",
+      "stock_name": "京华激光",
+      "company_name": "浙江京华激光科技股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.sx-jhjg.com/",
+      "eastmoney_code": "SH603607"
+    },
+    {
+      "stock_code": "603429",
+      "stock_name": "*ST集友",
+      "company_name": "安徽集友新材料股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.ahjiyou.com.cn/",
+      "eastmoney_code": "SH603429"
+    },
+    {
+      "stock_code": "002752",
+      "stock_name": "昇兴股份",
+      "company_name": "昇兴集团股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.shengxingholdings.com/",
+      "eastmoney_code": "SZ002752"
+    },
+    {
+      "stock_code": "300501",
+      "stock_name": "海顺新材",
+      "company_name": "上海海顺新型药用包装材料股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.hysum.com/",
+      "eastmoney_code": "SZ300501"
+    },
+    {
+      "stock_code": "002303",
+      "stock_name": "美盈森",
+      "company_name": "美盈森集团股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.szmys.com/",
+      "eastmoney_code": "SZ002303"
+    },
+    {
+      "stock_code": "601515",
+      "stock_name": "衢州东峰",
+      "company_name": "衢州东峰新材料集团股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.dfp.com.cn/",
+      "eastmoney_code": "SH601515"
+    },
+    {
+      "stock_code": "301198",
+      "stock_name": "喜悦智行",
+      "company_name": "宁波喜悦智行科技股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.joy-nb.com/",
+      "eastmoney_code": "SZ301198"
+    },
+    {
+      "stock_code": "002836",
+      "stock_name": "新宏泽",
+      "company_name": "广东新宏泽包装股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.newglp.com/",
+      "eastmoney_code": "SZ002836"
+    },
+    {
+      "stock_code": "301355",
+      "stock_name": "南王科技",
+      "company_name": "福建南王环保科技股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.nwpak.com/",
+      "eastmoney_code": "SZ301355"
+    },
+    {
+      "stock_code": "003003",
+      "stock_name": "天元股份",
+      "company_name": "广东天元实业集团股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.gdtengen.com/",
+      "eastmoney_code": "SZ003003"
+    },
+    {
+      "stock_code": "002735",
+      "stock_name": "王子新材",
+      "company_name": "深圳王子新材料股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.szwzxc.com/",
+      "eastmoney_code": "SZ002735"
+    },
+    {
+      "stock_code": "603022",
+      "stock_name": "新通联",
+      "company_name": "上海新通联包装股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.xtlpacking.com/",
+      "eastmoney_code": "SH603022"
+    },
+    {
+      "stock_code": "002228",
+      "stock_name": "合兴包装",
+      "company_name": "厦门合兴包装印刷股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.hxpp.com.cn/",
+      "eastmoney_code": "SZ002228"
+    },
+    {
+      "stock_code": "000812",
+      "stock_name": "陕西金叶",
+      "company_name": "陕西金叶科教集团股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.jinyegroup.cn/",
+      "eastmoney_code": "SZ000812"
+    },
+    {
+      "stock_code": "301296",
+      "stock_name": "新巨丰",
+      "company_name": "山东新巨丰科技包装股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.newjfpack.com/",
+      "eastmoney_code": "SZ301296"
+    },
+    {
+      "stock_code": "002565",
+      "stock_name": "顺灏股份",
+      "company_name": "上海顺灏新材料科技股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.shunhostock.com/",
+      "eastmoney_code": "SZ002565"
+    },
+    {
+      "stock_code": "000659",
+      "stock_name": "珠海中富",
+      "company_name": "珠海中富实业股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.zhongfu.com.cn/",
+      "eastmoney_code": "SZ000659"
+    },
+    {
+      "stock_code": "301223",
+      "stock_name": "中荣股份",
+      "company_name": "中荣印刷集团股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.zrp.com.cn/",
+      "eastmoney_code": "SZ301223"
+    },
+    {
+      "stock_code": "600210",
+      "stock_name": "紫江企业",
+      "company_name": "上海紫江企业集团股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.zijiangqy.com/",
+      "eastmoney_code": "SH600210"
+    },
+    {
+      "stock_code": "603499",
+      "stock_name": "翔港科技",
+      "company_name": "上海翔港包装科技股份有限公司",
+      "industry": "包装印刷",
+      "website": "https://www.sunglow-tec.com/",
+      "eastmoney_code": "SH603499"
+    }
+  ]
+}

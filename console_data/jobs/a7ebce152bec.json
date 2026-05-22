@@ -1,0 +1,26 @@
+{
+  "job_id": "a7ebce152bec",
+  "config": {
+    "mode": "discover",
+    "industry": "玻璃玻纤",
+    "company_limit": 10,
+    "page_limit": 15,
+    "result_limit": 5,
+    "timeout": 15.0,
+    "source_path": "",
+    "output_path": "",
+    "show_ssl_warning": false
+  },
+  "status": "failed",
+  "created_at": "2026-05-21T17:22:51",
+  "started_at": "2026-05-21T17:22:51",
+  "finished_at": "2026-05-21T17:22:51",
+  "artifact_path": "",
+  "source_path": "",
+  "error": "Remote end closed connection without response",
+  "summary": {},
+  "logs": [
+    "2026-05-21T17:22:51 开始 discover 模式，行业: 玻璃玻纤",
+    "2026-05-21T17:22:51 任务失败: Remote end closed connection without response"
+  ]
+}

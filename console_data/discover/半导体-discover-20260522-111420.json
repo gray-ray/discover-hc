@@ -1,0 +1,171 @@
+{
+  "kind": "discover",
+  "created_at": "2026-05-22T11:14:20",
+  "industry": {
+    "name": "半导体",
+    "code": "BK1036"
+  },
+  "company_count": 20,
+  "companies": [
+    {
+      "stock_code": "688458",
+      "stock_name": "美芯晟",
+      "company_name": "美芯晟科技(北京)股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.maxictech.com/",
+      "eastmoney_code": "SH688458"
+    },
+    {
+      "stock_code": "300373",
+      "stock_name": "扬杰科技",
+      "company_name": "扬州扬杰电子科技股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.21yangjie.com/",
+      "eastmoney_code": "SZ300373"
+    },
+    {
+      "stock_code": "688419",
+      "stock_name": "耐科装备",
+      "company_name": "安徽耐科装备科技股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.nextooling.com/",
+      "eastmoney_code": "SH688419"
+    },
+    {
+      "stock_code": "688234",
+      "stock_name": "天岳先进",
+      "company_name": "山东天岳先进科技股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.sicc.cc/",
+      "eastmoney_code": "SH688234"
+    },
+    {
+      "stock_code": "605111",
+      "stock_name": "新洁能",
+      "company_name": "无锡新洁能股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.ncepower.com/",
+      "eastmoney_code": "SH605111"
+    },
+    {
+      "stock_code": "688478",
+      "stock_name": "晶升股份",
+      "company_name": "南京晶升装备股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.cgee.com.cn/",
+      "eastmoney_code": "SH688478"
+    },
+    {
+      "stock_code": "688593",
+      "stock_name": "新相微",
+      "company_name": "上海新相微电子股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.newvisionu.com.cn/",
+      "eastmoney_code": "SH688593"
+    },
+    {
+      "stock_code": "603290",
+      "stock_name": "斯达半导",
+      "company_name": "斯达半导体股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.powersemi.com/",
+      "eastmoney_code": "SH603290"
+    },
+    {
+      "stock_code": "300782",
+      "stock_name": "卓胜微",
+      "company_name": "江苏卓胜微电子股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.maxscend.com/",
+      "eastmoney_code": "SZ300782"
+    },
+    {
+      "stock_code": "688368",
+      "stock_name": "晶丰明源",
+      "company_name": "上海晶丰明源半导体股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.bpsemi.com/",
+      "eastmoney_code": "SH688368"
+    },
+    {
+      "stock_code": "688146",
+      "stock_name": "中船特气",
+      "company_name": "中船(邯郸)派瑞特种气体股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.pericsg.com/",
+      "eastmoney_code": "SH688146"
+    },
+    {
+      "stock_code": "688416",
+      "stock_name": "恒烁股份",
+      "company_name": "恒烁半导体(合肥)股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.zbitsemi.com/",
+      "eastmoney_code": "SH688416"
+    },
+    {
+      "stock_code": "603005",
+      "stock_name": "晶方科技",
+      "company_name": "苏州晶方半导体科技股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.wlcsp.com/",
+      "eastmoney_code": "SH603005"
+    },
+    {
+      "stock_code": "688401",
+      "stock_name": "路维光电",
+      "company_name": "深圳市路维光电股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.newwaymask.com/",
+      "eastmoney_code": "SH688401"
+    },
+    {
+      "stock_code": "688381",
+      "stock_name": "帝奥微",
+      "company_name": "江苏帝奥微电子股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.dioo.com/",
+      "eastmoney_code": "SH688381"
+    },
+    {
+      "stock_code": "300613",
+      "stock_name": "富瀚微",
+      "company_name": "上海富瀚微电子股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.fullhan.com/",
+      "eastmoney_code": "SZ300613"
+    },
+    {
+      "stock_code": "688362",
+      "stock_name": "甬矽电子",
+      "company_name": "甬矽电子(宁波)股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.forehope-elec.com/",
+      "eastmoney_code": "SH688362"
+    },
+    {
+      "stock_code": "688279",
+      "stock_name": "峰岹科技",
+      "company_name": "峰岹科技(深圳)股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.fortiortech.com/",
+      "eastmoney_code": "SH688279"
+    },
+    {
+      "stock_code": "688099",
+      "stock_name": "XD晶晨股",
+      "company_name": "晶晨半导体(上海)股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.amlogic.cn,www.Amlogic.com/",
+      "eastmoney_code": "SH688099"
+    },
+    {
+      "stock_code": "300623",
+      "stock_name": "捷捷微电",
+      "company_name": "江苏捷捷微电子股份有限公司",
+      "industry": "半导体",
+      "website": "https://www.jjwdz.com/",
+      "eastmoney_code": "SZ300623"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "job_id": "67203da8",
+  "config": {
+    "mode": "discover",
+    "industry": "个护用品",
+    "company_limit": 30,
+    "page_limit": 15,
+    "result_limit": 5,
+    "timeout": 15.0,
+    "source_path": "",
+    "output_path": "",
+    "show_ssl_warning": false
+  },
+  "status": "queued",
+  "created_at": "2026-05-21T15:39:46",
+  "started_at": null,
+  "finished_at": null,
+  "artifact_path": "/Users/ecarx/Documents/pluto/hc/console_data/discover/个护用品-discover-20260521-153949.json",
+  "source_path": "",
+  "error": null,
+  "summary": {
+    "industry": "个护用品",
+    "company_count": 13
+  },
+  "logs": []
+}

@@ -1,0 +1,190 @@
+{
+  "kind": "crawl",
+  "mode": "crawl",
+  "created_at": "2026-05-22T13:33:31",
+  "source_path": "/Users/ecarx/Documents/pluto/hc/console_data/discover/医药商业-discover-20260522-132532.json",
+  "industry": {
+    "name": "医药商业",
+    "code": "BK1042"
+  },
+  "company_count": 16,
+  "completed_count": 16,
+  "results": [
+    {
+      "company": {
+        "stock_code": "600713",
+        "stock_name": "南京医药",
+        "company_name": "南京医药集团股份有限公司",
+        "industry": "医药商业",
+        "website": "https://www.njyy.com/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    },
+    {
+      "company": {
+        "stock_code": "301015",
+        "stock_name": "百洋医药",
+        "company_name": "青岛百洋医药股份有限公司",
+        "industry": "医药商业",
+        "website": "https://www.baheal.cn/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    },
+    {
+      "company": {
+        "stock_code": "002462",
+        "stock_name": "嘉事堂",
+        "company_name": "嘉事堂药业股份有限公司",
+        "industry": "医药商业",
+        "website": "https://www.cachet.com.cn/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    },
+    {
+      "company": {
+        "stock_code": "600829",
+        "stock_name": "人民同泰",
+        "company_name": "哈药集团人民同泰医药股份有限公司",
+        "industry": "医药商业",
+        "website": "https://www.hyrmtt.com.cn/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    },
+    {
+      "company": {
+        "stock_code": "301126",
+        "stock_name": "达嘉维康",
+        "company_name": "湖南达嘉维康医药产业股份有限公司",
+        "industry": "医药商业",
+        "website": "https://www.djwk.com.cn/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    },
+    {
+      "company": {
+        "stock_code": "000411",
+        "stock_name": "英特集团",
+        "company_name": "浙江英特集团股份有限公司",
+        "industry": "医药商业",
+        "website": "https://www.intmedic.com/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    },
+    {
+      "company": {
+        "stock_code": "002788",
+        "stock_name": "鹭燕医药",
+        "company_name": "鹭燕医药股份有限公司",
+        "industry": "医药商业",
+        "website": "https://www.luyan.com.cn/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    },
+    {
+      "company": {
+        "stock_code": "600833",
+        "stock_name": "第一医药",
+        "company_name": "上海第一医药股份有限公司",
+        "industry": "医药商业",
+        "website": "https://shdyyy.com.cn/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    },
+    {
+      "company": {
+        "stock_code": "300937",
+        "stock_name": "药易购",
+        "company_name": "四川合纵药易购医药股份有限公司",
+        "industry": "医药商业",
+        "website": "https://www.hezongyy.com/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    },
+    {
+      "company": {
+        "stock_code": "000950",
+        "stock_name": "重药控股",
+        "company_name": "重药控股股份有限公司",
+        "industry": "医药商业",
+        "website": "https://www.cqphar.com/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    },
+    {
+      "company": {
+        "stock_code": "000705",
+        "stock_name": "浙江震元",
+        "company_name": "浙江震元股份有限公司",
+        "industry": "医药商业",
+        "website": "https://www.zjzy.com/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    },
+    {
+      "company": {
+        "stock_code": "603233",
+        "stock_name": "大参林",
+        "company_name": "大参林医药集团股份有限公司",
+        "industry": "医药商业",
+        "website": "https://www.dslyy.com/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    },
+    {
+      "company": {
+        "stock_code": "301584",
+        "stock_name": "建发致新",
+        "company_name": "上海建发致新医疗科技集团股份有限公司",
+        "industry": "医药商业",
+        "website": "https://www.innostic.com/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    },
+    {
+      "company": {
+        "stock_code": "600511",
+        "stock_name": "国药股份",
+        "company_name": "国药集团药业股份有限公司",
+        "industry": "医药商业",
+        "website": "https://www.cncm.com.cn/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    },
+    {
+      "company": {
+        "stock_code": "600272",
+        "stock_name": "开开实业",
+        "company_name": "上海开开实业股份有限公司",
+        "industry": "医药商业",
+        "website": "https://www.chinesekk.com/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    },
+    {
+      "company": {
+        "stock_code": "002589",
+        "stock_name": "瑞康医药",
+        "company_name": "瑞康医药集团股份有限公司",
+        "industry": "医药商业",
+        "website": "https://www.realcan.cn/"
+      },
+      "recruitment_info": [],
+      "error": "官网可访问，但未在限定页面内发现明确招聘信息"
+    }
+  ]
+}
