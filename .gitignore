@@ -1,1 +1,5 @@
 __pycache__
+
+console_data/crawl/*
+console_data/discover/*
+console_data/jobs/*
